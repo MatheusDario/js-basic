@@ -1,1 +1,1 @@
-# js-basic
+##Studying **JavaScript** and **TypeScript**
