@@ -1,1 +1,2 @@
-##Studying **JavaScript** and **TypeScript**
+
+## Studying **JavaScript** and **TypeScript**
