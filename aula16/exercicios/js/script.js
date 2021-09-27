@@ -1,7 +1,6 @@
-/*pegar as informacoes inseridas e criar um objeto
-e colocar o objeto dentro do array pessoas e cada vez que for enviado
-add o obj dentro do array e o que foi adicionado colocar na div de resultado
-como paragrafo
+/*O codigo seguinte define uma funcao inicial, delimitando o escopo para as variaves nao ser global
+cria uma variavel que armazena os dados recebido do formulario e uma variavel para armazenar a div
+cria um array, a funcao 
 */
 
 function meuEscopo() {
