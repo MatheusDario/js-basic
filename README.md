@@ -1,7 +1,6 @@
 
 ## Studying JavaScript and TypeScript
 ### Confira o que foi desenvolvido durante o estudo
-#### [Calculador de IMC](file:///home/matheus/workspace/js-basic/aula26/index.html?)
-
+#### [Calculadora de IMC](https://www.linkedin.com/in/matheus-dario-247193208/)
 
 #### [Visit my linkedin](https://www.linkedin.com/in/matheus-dario-247193208/)
