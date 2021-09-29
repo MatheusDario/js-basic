@@ -35,7 +35,7 @@ function main() {
 
    //Lista de coisas para ser usada e classificar o imc
    function getClassificacaoImc (imc) {
-    const classificacao = ['Magreza', 'Normal', 'Sobrepeso GrauI', 'Obesidade Grau II', 'Obesidade Grave Grau III'];
+    const classificacao = ['Magreza', 'Normal', 'Sobrepeso Grau I', 'Obesidade Grau II', 'Obesidade Grave Grau III'];
 
     if(imc >= 39.9) {
         return classificacao[4];
