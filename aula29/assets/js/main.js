@@ -2,9 +2,7 @@ function main() {
     const h1 = document.querySelector('.container h1'); // Selecionando a tag html p modificar
     const data = new Date();
     h1.innerHTML = data.toLocaleString('pt-BR', { dateStyle: 'full', timeStyle: 'short'});
-
-    
-
+ 
     // function getDiaSemanaTexto(diaSemana) {
     //     let diaSemanaTexto;
 
