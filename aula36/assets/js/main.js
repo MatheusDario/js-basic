@@ -7,11 +7,10 @@
     
     const estilosBody = getComputedStyle(document.body);
     const backGroundColorBody = estilosBody.backgroundColor;
-    
 
    for (let p of ps) {
        p.style.backgroundColor = backGroundColorBody;
-       p.style.color = '#FFFFFF';
+       p.style.color = 'white';
    }
 
    container.innerHTML += `<p>reiciendis quaerat sed numquam totam perferendis, natus repellat ipsam, fugiat</p>`;
