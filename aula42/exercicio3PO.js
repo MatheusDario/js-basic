@@ -14,7 +14,7 @@ function numerosDivisiveis (x) {
     else return x;
 }
 
-for (let i = 0; i <= 25; i++) {
+for (let i = 0; i <= 10; i++) {
     console.log(i, numerosDivisiveis(i))
 }
 
