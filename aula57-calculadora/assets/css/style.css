@@ -60,3 +60,21 @@ form button:hover {
 .calculadora {
   width: 400px;
 }
+
+.display {
+  font-size: 2em;
+  width: 100%;
+}
+
+.btn {
+  width: 100%;
+  height: 40px;
+  font-size: 1em;
+  border: none;
+  background: #dfdfdf;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #9e9e9e;
+}
