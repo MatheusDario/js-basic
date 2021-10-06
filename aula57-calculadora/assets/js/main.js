@@ -36,6 +36,8 @@ function criaCalculadora() {
                     this.realizaConta();
                 }
             });
+
+            this.display.focus();
         },
 
         btnParaDisplay(valor) {
