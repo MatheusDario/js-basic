@@ -31,7 +31,7 @@ function criaCalculadora() {
         },
 
         keyPressEnter() {
-            this.display.addEventListener('keyup', e => {
+            this.display.addEventListener('keyup', (e) => {
                 if(e.keyCode === 13) {
                     this.realizaConta();
                 }
