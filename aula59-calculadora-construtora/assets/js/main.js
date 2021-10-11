@@ -5,7 +5,7 @@ function Calculadora() {
     this.inicia = () => {
         this.capturaCliques();
         this.keyPressEnter();
-    };
+    }; 
 
     this.capturaCliques = () => {
         document.addEventListener('click', (event) => {
