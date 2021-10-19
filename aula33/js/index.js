@@ -17,7 +17,7 @@ for (let dados in pessoa) {
 //for of p/ retornar os valores
 const nomes = ['Matheus', 'Arthur', 'Bianca']
 for(let valor of nomes) {
-    //console.log(valor)
+    console.log(valor)
 }
 
 nomes.forEach(function(valor, indice){

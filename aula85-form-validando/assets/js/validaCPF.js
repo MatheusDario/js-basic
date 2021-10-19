@@ -42,11 +42,10 @@ class ValidaCpf {
     };
 }
 
-const cpf = new ValidaCpf('058.828.621-40'); 
+/* const cpf = new ValidaCpf('058.828.621-40'); 
 if(cpf.valida()) {
     console.log(`CPF Valido ` + cpf.cpfLimpo);
 } else {
     console.log('CPF Invalido');
-}
+} */
 
-//console.log(cpf)
