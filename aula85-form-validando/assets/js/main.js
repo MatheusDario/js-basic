@@ -16,10 +16,14 @@ class ValidaFormulario {
         const isValidFields = this.isValidFields();
         const validPassword = this.isValidPassword();
 
-        const usuario = this.formulario.querySelector('.nome');
+        const nome = this.formulario.querySelector('.nome').value;
+
+        const sobrenome = this.formulario.querySelector('.sobrenome').value;
+
+        const usuario = `usuario ${nome} ${sobrenome}`;
 
         if(isValidFields && validPassword) {
-            alert(`Parabens ${usuario} seus dados foram enviados`);
+            alert(`Parabens ${usuario} seus dados foram enviados com sucesso!`);
             this.formulario.submit();
         }
     }
@@ -101,8 +105,5 @@ class ValidaFormulario {
         div.classList.add('error-text');
         field.insertAdjacentElement('afterEnd', div); //beforeBegin', 'afterBegin', 'beforeEnd', or 'afterEnd'
     }
-
-
 }
-
 const valida = new ValidaFormulario();
